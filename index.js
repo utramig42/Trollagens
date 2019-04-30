@@ -5,9 +5,9 @@ const path = require('path');
 const fs = require('fs');
 
 const mainPath = path.dirname(fs.realpathSync(__filename));
-const soundPath = path.join(mainPath, './gemidao');
+const soundPath = path.join(mainPath, './gemidao1');
 
-const gemidao = function (){
+const gemidao1 = function (){
     const linuxcmd = 'paplay '+soundPath+'.ogg';
     const windowscmd = path.join(mainPath, './forWindows.vbs')+' '+soundPath+'.mp3';
     const maccmd = 'afplay '+soundPath+'.mp3';
@@ -31,8 +31,8 @@ const gemidao = function (){
     }
 }
 
-module.exports = gemidao;
+module.exports = gemidao1;
 
 if (!module.parent) {
-    gemidao();
+    gemidao1();
 }
