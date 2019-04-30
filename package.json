@@ -1,0 +1,22 @@
+{
+  "name": "gemidao",
+  "version": "1.0.1",
+  "description": "Trollei",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BrOrlandi/omaewa.git"
+  },
+  "author": "Guilherme <Secret>",
+  "license": "MIT",
+  "bin": {
+    "gemidao": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BrOrlandi/omaewa/issues"
+  },
+  "homepage": "https://github.com/BrOrlandi/omaewa#readme"
+}
