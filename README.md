@@ -1,9 +1,5 @@
 # 'Omae wa' Command Line Sound
 
-<div style="text-align: center">
-    <img src="./omaewa.png" height="300"/>
-</div>
-
 > Omae wa mou shindeiru! Nani!??
 
 Play famous "Omae wa" sound.
@@ -17,18 +13,18 @@ Play famous "Omae wa" sound.
 ## Installing
 Install globally:
 
-    npm install -g omaewa
+    npm install -g gemidao1
 
 ## Running
 Run command:
 
-    omaewa
+    gemidao1
 
 Or import in NodeJS script:
 
-    import omaewa from 'omaewa';
+    import gemidao1 from 'gemidao1';
 
-    omaewa();
+    gemidao1();
 
 ## See also
 
